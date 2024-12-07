@@ -7,13 +7,13 @@ The channel ID is "@stake10peruanos".
 
 # How it works:
 
-## First, when a new message arrives, it checks if the message contains a specific text.
+### First, when a new message arrives, it checks if the message contains a specific text.
 The message consists of two images, and only the first image has a caption text. So exactly, it is two messages.
 therefore, for example, if the message ID include first image is 9131, the message ID include second image is 9132.
 Because program can only search caption text, we get first message ID.
 we can know the message ID include second image, and download the image using this ID.
-## Second, preprocess downloaded images using opencv module.
-## Finally, extract the text from preprocessed images using Tesseract-OCR.
+### Second, preprocess downloaded images using opencv module.
+### Finally, extract the text from preprocessed images using Tesseract-OCR.
 
 # How to run:
 
